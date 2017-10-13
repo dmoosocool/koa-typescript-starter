@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "allowJs": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "./build",
+        "watch": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "typings"
+    ]
+}

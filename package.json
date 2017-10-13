@@ -1,0 +1,26 @@
+{
+  "name": "koa-typescript-starter",
+  "version": "1.0.0",
+  "description": "typescript + koa2",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "doc": "",
+    "server": "supervisor -w build ./build/app.js"
+  },
+  "author": "Dmoosocool",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^7.2.1",
+    "koa-session": "^5.5.0",
+    "mysql2": "^1.4.2",
+    "reflect-metadata": "^0.1.10",
+    "sequelize": "^4.13.8",
+    "sequelize-typescript": "^0.5.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
